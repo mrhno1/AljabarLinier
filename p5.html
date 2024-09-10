@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Algo5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+</head>
+<body>
+    <header><h1 align="center">Pertemuan 5</h1></header>
+    <h2>1. Determinan Matriks </h2>
+    <p>Determinan adalah nilai yang diperoleh dari operasi matematika yang diterapkan pada matriks persegi. Dalam konteks matriks persegi 𝑛 × 𝑛<br><br>Determinan adalah bilangan skalar yang memberikan informasi penting tentang sifat-sifat matriks tersebut. <br><br>Jika determinan tidak sama dengan nol, maka kita dapat yakin bahwa  dapat diinverskan.<br><br>Determinan memberikan informasi tentang apakah matriks tersebut dapat diinverskan, apakah sistem persamaan linear memiliki solusi unik atau tidak, serta apakah matriks tersebut memperbesar atau memperkecil area atau volume pada transformasi geometri.</p>
+    <h5 class="Garis"></h5>
+    <h2>2. Determinan Matriks 2 x 2</h2>
+    <p>Membuat sebuah fungsi pada Python <br>• Berikut adalah cara membuat sebuah fungsi pada Python. Namun fungsi ini belum berguna karena belum dipanggil.</p>
+    <img src="Gambar34.png" alt="" width="300px" height="auto">
+    <img src="Gambar35.png" alt="" width="300px" height="auto">
+    <h5 class="Garis"></h5>
+    <h2>3. Determinan Matriks 3 x 3</h2>
+    <img src="Gambar36.png" alt="" width="300px" height="auto">
+    <img src="Gambar37.png" alt="" width="300px" height="auto">
+    <h5 class="Garis"></h5>
+    <h2>4. Contoh Penerapan Determinan Matriks 2 x 2 Dalam Bidang Informatika</h2>
+    <p>Transformasi Geometris: Dalam grafika komputer atau pengolahan citra, matriks 2x2 digunakan untuk menerapkan transformasi geometris seperti rotasi, scaling, dan translasi. Determinan matriks ini digunakan untuk menentukan apakah transformasi tersebut akan memutar objek searah jarum jam atau berlawanan arah jarum jam, serta untuk memeriksa apakah scaling atau translasi akan menyebabkan distorsi.<br><br>Kompresi Data: Dalam kompresi data, terutama dalam format gambar seperti JPEG, determinan matriks 2x2 digunakan dalam proses kompresi. Salah satu teknik kompresi yang umum adalah transformasi discrete cosine transform (DCT), yang melibatkan perhitungan determinan matriks 2x2 pada blok-blok piksel.<br><br>Kriptografi: Dalam kriptografi, matriks 2x2 digunakan dalam beberapa teknik enkripsi, seperti Affine Cipher. Dalam metode ini, matriks 2x2 yang disebut matriks kunci digunakan untuk mengubah teks terbuka menjadi teks terenkripsi.</p>
+    <p>Pemrosesan Sinyal: Dalam pemrosesan sinyal, matriks 2x2 digunakan dalam berbagai algoritma, seperti dalam analisis frekuensi atau dalam filter digital. Determinan matriks ini dapat digunakan untuk menentukan apakah sebuah sistem sinyal adalah sistem stabil atau tidak.<br><br>Pemodelan Matematika: Dalam pemodelan matematika untuk simulasi atau analisis data, matriks 2x2 sering digunakan untuk merepresentasikan hubungan linier antara variabel-variabel. Determinan matriks ini dapat memberikan informasi penting tentang sifat-sifat model tersebut, seperti keberadaan solusi atau stabilitasnya.</p>
+    <h5 class="Garis"></h5>
+    <h2>5. Contoh Penerapan Determinan Matriks 3 x 3 Dalam Bidang Informatika</h2>
+    <p>Grafika Komputer: Dalam grafika komputer, determinan matriks 3x3 sering digunakan untuk mentransformasi objek. Misalnya, dalam rotasi objek di sekitar titik tertentu atau dalam scaling (perubahan ukuran objek).<br><br>Kriptografi: Dalam kriptografi, determinan matriks 3x3 dapat digunakan dalam enkripsi dan dekripsi. Metode kriptografi seperti Hill Cipher menggunakan matriks 3x3 sebagai kunci enkripsi.<br><br>Pengolahan Citra: Dalam pengolahan citra digital, determinan matriks 3x3 sering digunakan dalam proses transformasi geometris seperti rotasi, scaling, dan pergeseran citra.</p>
+    <p>Pemrosesan Sinyal: Dalam pemrosesan sinyal digital, matriks digunakan untuk merepresentasikan operasi transformasi. Determinan matriks 3x3 dapat digunakan untuk menentukan apakah suatu sistem sinyal adalah sistem linier atau tidak.<br><br>Rekayasa Perangkat Lunak: Dalam pengembangan perangkat lunak, determinan matriks 3x3 dapat digunakan dalam pemodelan sistem-sistem kompleks, seperti dalam analisis keandalan sistem atau dalam pengoptimalan algoritma. Misalnya, dalam analisis kompleksitas algoritma, determinan matriks dapat digunakan untuk menentukan waktu eksekusi dan kompleksitas memori dari algoritma tertentu</p>
+    <h2>6. Determinan Matriks n x n</h2>
+    <p>Matriks 𝑛×𝑛: Untuk matriks 𝑛×𝑛, determinannya dapat dihitung menggunakan ekspansi kofaktor atau metode eliminasi Gauss.<br><br>Ekspansi Kofaktor: Untuk matriks 𝐴, determinannya dapat dihitung dengan ekspansi kofaktor sepanjang baris atau kolom manapun. Misalkan kita menggunakan baris pertama:</p>
+    <img src="Gambar38.png" alt="" width="300px" height="auto">
+    <p>di mana 𝐴1𝑗 adalah submatriks yang diperoleh dengan menghapus baris pertama dan kolom 𝑗j dari matriks 𝐴.</p>
+    <p>Eliminasi Gauss: Determinan dari matriks 𝐴A juga dapat dihitung dengan mereduksi matriks ke bentuk segitiga atas (upper triangular) menggunakan operasi baris elementer (tanpa mengubah determinan). Jika 𝑈U adalah matriks segitiga atas yang diperoleh, maka:</p>
+    <img src="Gambar39.png" alt="" width="300px" height="100px">
+    <p>di mana 𝑟r adalah jumlah pertukaran baris yang dilakukan selama proses eliminasi, dan 𝑢𝑖𝑖uii​ adalah elemen diagonal dari matriks segitiga atas 𝑈U.</p>
+    <img src="Gambar40.png" alt="" width="400px" height="300px">
+    <br><br><img src="Gambar41.png" alt="" width="400px" height="300px">
+    <h5 class="Garis"></h5>
+    <footer><h1 align="center">HAFIZH NUR WAHID 2024</h1></footer>
+</body>
+</html>
