@@ -1,0 +1,14 @@
+body{
+    border: solid;
+    background-image: url('Background.jpeg'); /* Path ke file gambar */
+    background-size: cover; /* Menyesuaikan ukuran gambar sesuai dengan elemen */
+    background-position: center; /* Menyimpan posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */background-image: url('Background.jpeg'); /* Path ke file gambar */
+    background-size: cover; /* Menyesuaikan ukuran gambar sesuai dengan elemen */
+    background-position: center; /* Menyimpan posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+    .Garis {
+        border: solid;
+        border-width: 5px;
+    }

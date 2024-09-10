@@ -1,0 +1,15 @@
+body {
+    border: solid;
+}
+.Garis {
+    border: solid;
+    border-width: 5px;
+}
+header {
+    background-color: blue;
+    color: white;
+}
+footer {
+    background-color: blue;
+    color: white;
+}
